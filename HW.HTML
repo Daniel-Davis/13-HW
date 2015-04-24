@@ -10,12 +10,17 @@
 <script>
   function buildTable(data) {
    for(var i=0, i < data.length, ++i) {
-     if(data == ) {
-       
+     if(data == keyword) {
+       document.createElement();
      }// end of if statement
-     
+     if(data == text) {
+       document.createTextNode();
+     }// end of if statement
+     else {
+       document.body.appendChild(document.createElement());
+     }// end of else
    }// end of for loop
   }// end of fuction
 
-  document.body.appendChild(buildTable(MOUNTAINS));
+  document.body.appendChild(buildTable());
 </script>
